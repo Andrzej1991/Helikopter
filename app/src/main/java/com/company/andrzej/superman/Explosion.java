@@ -3,9 +3,7 @@ package com.company.andrzej.superman;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 
-/**
- * Created by Andrzej on 2016-01-26.
- */
+
 public class Explosion {
     private int x;
     private int y;
@@ -55,4 +53,9 @@ public class Explosion {
         }
     }
     public int getHeight(){return height;}
+
+        public void dispose(){
+            dispose();
+
+    }
 }
