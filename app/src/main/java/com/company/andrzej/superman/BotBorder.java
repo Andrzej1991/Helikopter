@@ -7,6 +7,7 @@ import android.graphics.Canvas;
  * Created by Andrzej on 2016-01-25.
  */
 public class BotBorder extends GameObject {
+    private int score = 4;
 
     private Bitmap image;
     public  BotBorder(Bitmap res, int x, int y)

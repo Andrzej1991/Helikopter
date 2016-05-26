@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
  * Created by Andrzej on 2016-01-22.
  */
 public class Animation {
+    private int score = 4;
     private Bitmap[] frames;
     private int currentFrame;
     private long startTime;

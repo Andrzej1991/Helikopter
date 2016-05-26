@@ -8,6 +8,8 @@ import android.view.SurfaceHolder;
  */
 public class MainThread extends Thread
 {
+    private int score = 4;
+
     private int FPS = 30;
     private double averageFPS;
     private final SurfaceHolder surfaceHolder;

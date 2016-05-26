@@ -6,6 +6,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class Game extends Activity {
+    private int score = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

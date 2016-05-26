@@ -9,6 +9,7 @@ import java.util.Random;
  * Created by Andrzej on 2016-01-24.
  */
 public class Missile extends GameObject {
+    private int Score = 4;
 
     private int score;
     private int speed;

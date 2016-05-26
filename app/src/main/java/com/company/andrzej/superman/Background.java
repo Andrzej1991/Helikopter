@@ -7,6 +7,7 @@ import android.graphics.Canvas;
  * Created by Andrzej on 2016-01-22.
  */
 public class Background {
+    private int score = 4;
     private Bitmap image;
     private int x, y, dx;
 

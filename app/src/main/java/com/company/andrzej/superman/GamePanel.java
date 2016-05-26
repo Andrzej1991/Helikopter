@@ -26,6 +26,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback
     private long smokeStartTime;
     private long missileStartTime;
     private MainThread thread;
+    private int score = 4;
     private Background bg;
     private Player player;
     private ArrayList<Smokepuff> smoke;

@@ -8,6 +8,7 @@ import android.graphics.Paint;
  * Created by Andrzej on 2016-01-22.
  */
 public class Smokepuff extends GameObject {
+    private int score = 4;
     public int r;
     public Smokepuff(int x, int y)
     {

@@ -7,6 +7,7 @@ import android.graphics.Rect;
  */
 public abstract class GameObject
 {
+    private int score = 4;
     protected int x;
     protected int y;
     protected int dy;
