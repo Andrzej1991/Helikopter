@@ -7,8 +7,7 @@ import android.graphics.Paint;
 /**
  * Created by Andrzej on 2016-01-22.
  */
-public class Smokepuff extends GameObject {
-    private int score = 4;
+public class Smokepuff extends GameObject{
     public int r;
     public Smokepuff(int x, int y)
     {
@@ -23,10 +22,11 @@ public class Smokepuff extends GameObject {
     public void draw(Canvas canvas)
     {
         Paint paint = new Paint();
-        paint.setColor(Color.BLUE);
-        paint.setStyle(Paint.Style.FILL_AND_STROKE);
-
-        canvas.drawLine(x-r, y-r, r, y, paint);
-
+        paint.setColor(Color.GRAY);
+        paint.setStyle(Paint.Style.FILL);
+        canvas.drawCircle(x-r, y-r, r, paint);
+        canvas.drawCircle(x-r+2, y-r-2,r,paint);
+        canvas.drawCircle(x-r+4, y-r+1, r, paint);
     }
+
 }

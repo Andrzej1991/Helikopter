@@ -50,8 +50,4 @@ public class Explosion {
         return height;
     }
 
-    public void dispose() {
-        dispose();
-
-    }
 }
